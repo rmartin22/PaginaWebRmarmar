@@ -1,0 +1,163 @@
+/* Estilo general */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+
+.encabezado {
+    background-color: #026aa7;
+    color: white;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.encabezado h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.encabezado p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.logo {
+    position: fixed;
+    top: 0px; 
+    right: 0px;
+  } 
+  
+.navegacion ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 0;
+    margin-top: 16px;
+}
+
+.navegacion a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navegacion a:hover {
+    color: #ffcc00;
+}
+
+
+.intro {
+    padding: 36px;
+    text-align: center;
+}
+
+.intro {
+    margin-bottom: 36px;
+}
+
+.intro h2 {
+    font-size: 36px;
+    margin-bottom: 8px;
+    color: #ffcc00;
+    border-bottom: 2px solid #ffcc00;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.intro p {
+    color: #000000;
+}
+
+
+table {
+    width: 90%;
+    max-width: 800px;
+    margin: 36px auto;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 5px #ffcc0060;
+    background: white;
+}
+
+thead {
+    background-color: #026aa7;
+    color: white;
+}
+
+th, td {
+    padding: 16px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+
+tbody tr:hover {
+    background-color: #e3f2fd;
+}
+
+.tabla-img {
+    width: 80px;
+    height: auto;
+    margin-right: 8px;
+}
+
+.boton {
+    padding: 8px 16px;
+    background-color: #026aa7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #ffcc00;
+}
+
+
+.subtabla {
+    background-color: #ffcc00;
+    padding: 36px;
+    margin-top: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.subtabla h2 {
+    margin: 0;
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.subtabla-boton {
+    display: inline-block;
+    padding: 16px 24px;
+    background-color: #026aa7;
+    color: white;
+    text-decoration: none;
+    font-weight: 600px;
+    border-radius: 4px;
+}
+
+.subtabla-boton:hover {
+    background-color: #000000;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    margin-top: 32px;
+    background-size: 100% 85%;
+}

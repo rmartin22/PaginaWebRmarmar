@@ -1,0 +1,99 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.encabezado {
+    background-color: #026aa7;
+    color: white;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.encabezado h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.encabezado p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.logo {
+    position: fixed;
+    top: 0px; 
+    right: 0px;
+  } 
+
+.navegacion ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 0;
+    margin-top: 16px;
+}
+
+.navegacion a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navegacion a:hover {
+    color: #ffcc00;
+}
+
+.destinos {
+    text-align: center;
+    padding: 50px;
+    background-image: url(https://images.unsplash.com/photo-1501082183835-b7b33db89c3f?q=80&w=2320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #FFFFFF;
+}
+
+.boton {
+    padding: 8px 16px;
+    background-color: #026aa7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: #ffcc00;
+}
+
+.nosotros h2 {
+    font-weight: bolder;
+    background-color: #ffcc00;
+    text-align: center;
+}
+
+.nosotros h2 b {
+    font-weight: bold;
+
+}
+
+.video {
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    margin-top: 32px;
+    background-size: 100% 85%;
+}

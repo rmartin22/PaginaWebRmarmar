@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Agencia de Viajes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+    <header class="encabezado">
+        <h1>Martin's Travels</h1>
+        <p>Descubre los mejores destinos y vive experiencias inolvidables.</p>
+        <div class="logo"> <img src="img/logo1.png" alt="logo" width="100px"></div>
+        <nav class="navegacion">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="ubicacion.html">Ubicación</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-form">
+            <h2>Contáctanos</h2>
+            <form action="#" method="post">
+                <!-- Nombre -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" >
+
+                <!-- Correo -->
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo" >
+
+                <!-- Teléfono -->
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Tu número de teléfono">
+
+                <!-- Tipo de consulta -->
+                <label for="tipo-consulta">Tipo de Consulta:</label>
+                <select id="tipo-consulta" name="tipo-consulta" >
+                    <option value="general">Consulta General</option>
+                    <option value="paquetes">Paquetes de Viajes</option>
+                    <option value="reservas">Reservas</option>
+                </select>
+
+                <!-- Comentarios -->
+                <label for="comentarios">Comentarios:</label>
+                <textarea id="comentarios" name="comentarios"  placeholder="Escribe tus comentarios aquí..."></textarea>
+
+                <!-- Preferencia de contacto -->
+                <fieldset>
+                    <legend>Preferencia de Contacto:</legend>
+                    <label><input type="radio" name="contacto" value="email"> Correo Electrónico</label>
+                    <label><input type="radio" name="contacto" value="telefono"> Teléfono</label>
+                </fieldset>
+
+                <!-- Consentimiento -->
+                <label><input type="checkbox" name="consentimiento"> Acepto los términos y condiciones.</label>
+
+                <!-- Botón de enviar -->
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+       
+    </main>
+
+</body>
+
+<footer class="footer">
+    <p>Martin's Travels, 2020.</p>
+        <p>📍 Oficinas: Avenida Plutarco nº13</p>
+        <p>📞 Contacto: 670737290 | 📧 martinstravels@gmail.com.</p>
+        <p>✈️ Atención al Cliente: Lunes a Viernes.</p>
+</footer>
+</html>
